@@ -23,11 +23,11 @@ Experiment 2: gut SPL disruption was induced by daily NF injection intra-periton
 4. Differential abundance of taxa by group
 
 ## The order of data processing and analysis
-1. Upload a data folder on HPC, run fastQCs, and demultiplex sequences: described in split_libraries.rtf
+1. Upload a data folder on HPC, run fastQCs, and demultiplex sequences: described in split_libraries.txt
 
 2. Process data, annotate sequences, assign ASV, generate ASV tables: 16S_dada2.R
 
-3. Filter non-bacterial and low variant species, determine alpha rarefaction, remove negative control, rarefy the data, measure alpha diversity and beta diversity: described in qiime.rtf
+3. Filter non-bacterial and low variant species, determine alpha rarefaction, remove negative control, rarefy the data, measure alpha diversity and beta diversity: described in qiime.txt
 
 4. Plots and statistics of alpha diversity and beta diversity: alpha_beta_diversity.R
 
