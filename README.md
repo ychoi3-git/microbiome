@@ -14,21 +14,21 @@ Experiment 1: SD (or vehicle only) was administered by gavage to wild type mice 
 Experiment 2: gut SPL disruption was induced by daily NF injection intra-peritoneally for consecutive 5 days.  Feces were collected on one day before the start of NF injection and collected on day 14 after completion of NF injection.  Mice were sacrificed after fecal collection and Ileum was collected. 
 
 ## Key outputs of Data analysis and statistics 
-1.Alpha diversity metrics: Shannon index, chao1, phylogenetic diversity
+1. Alpha diversity metrics: Shannon index, chao1, phylogenetic diversity
 
-2.Beta diversity metrics: bray curtis, weighted unifrac, unweighted unifrac, canberra 
+2. Beta diversity metrics: bray curtis, weighted unifrac, unweighted unifrac, canberra 
 
-3.Relative abundance by group
+3. Relative abundance by group
 
-4.Differential abundance of taxa by group
+4. Differential abundance of taxa by group
 
 ## The order of data processing and analysis
-1.Upload a data folder on HPC, run fastQCs, and demultiplex sequences: described in split_libraries.rtf
+1. Upload a data folder on HPC, run fastQCs, and demultiplex sequences: described in split_libraries.rtf
 
-2.Process data, annotate sequences, assign ASV, generate ASV tables: 16S_dada2.R
+2. Process data, annotate sequences, assign ASV, generate ASV tables: 16S_dada2.R
 
-3.Filter non-bacterial and low variant species, determine alpha rarefaction, remove negative control, rarefy the data, measure alpha diversity and beta diversity: described in qiime.rtf
+3. Filter non-bacterial and low variant species, determine alpha rarefaction, remove negative control, rarefy the data, measure alpha diversity and beta diversity: described in qiime.rtf
 
-4.Plots and statistics of alpha diversity and beta diversity: alpha_beta_diversity.R
+4. Plots and statistics of alpha diversity and beta diversity: alpha_beta_diversity.R
 
-5.Differential abundance of taxa was identified using poisson, negative binomial, zero-inflated negative binomial models.
+5. Differential abundance of taxa was identified using poisson, negative binomial, zero-inflated negative binomial models.
