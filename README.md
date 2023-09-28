@@ -16,7 +16,7 @@ Experiment 2: gut SPL disruption was induced by daily NF injection intra-periton
 ## Key outputs of Data analysis and statistics 
 1. Alpha diversity metrics: Shannon index, chao1, phylogenetic diversity
 
-2. Beta diversity metrics: bray curtis, weighted unifrac, unweighted unifrac, canberra 
+2. Beta diversity metrics: weighted unifrac, unweighted unifrac, canberra, bray curtis,
 
 3. Relative abundance by group
 
